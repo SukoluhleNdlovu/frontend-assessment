@@ -1,16 +1,20 @@
 function styleFor(status) {
   const base = {
-    display: "inline-block",
-    padding: "4px 10px",
+    display: "flex",
+    padding: "12px 10px",
+    height: 8,
+    width: 100,
     borderRadius: 999,
+    alignItems: "center",
+    justifyContent: "center",
     fontSize: 12,
     fontWeight: 800,
-    border: "1px solid #ddd",
-    background: "#8da5de",
+    border: "1px solid #7e83ac",
+    background: "#2563eb",
   };
 
-  if (status === "in-progress") return { ...base, background: "#fff6e5", borderColor: "#ffe1a8" };
-  if (status === "closed") return { ...base, background: "#eaffea", borderColor: "#b8f2b8" };
+  if (status === "in-progress") return { ...base, background: "#f59e0b", borderColor: "#cbe61e" };
+  if (status === "closed") return { ...base, background: "#16a34a", borderColor: "#5ac14a8b" };
   return base;
 }
 

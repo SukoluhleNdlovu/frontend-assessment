@@ -46,7 +46,8 @@ describe("Frontend Assessment App", () => {
       expect(screen.getByText(/Login button not responding/i)).toBeInTheDocument();
     });
 
-    expect(screen.getByText(/open/i)).toBeInTheDocument();
+   expect(screen.getAllByText(/open/i).length).toBeGreaterThan(0);
+
   });
 
   it("shows error state if fetch fails", async () => {

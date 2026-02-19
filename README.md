@@ -1,4 +1,4 @@
-# frontend-assessment (React + Vite)
+# Frontend-assessment (React + Vite)
 An application that fetches issues via HTTP and displays them in a clear, readable UI.
 
 ## How to run the application
@@ -17,4 +17,10 @@ Run:
 
 ```bash
 npm test
+```
+
+Deployed work link: 
+
+```bash
+https://frontend-assessment-sooty.vercel.app/
 ```
